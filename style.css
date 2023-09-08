@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #9d9a9a;
+}
+
+.container {
+    margin: 100px auto;
+    width: 85%;
+    padding: 20px;
+    background-color: #d0e8c9;
+    box-shadow: 0 0 10px rgba(71, 211, 97, 0.1);
+}
+
+.poke-info img {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+
+.poke-info {
+    display: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
