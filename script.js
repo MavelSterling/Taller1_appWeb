@@ -49,7 +49,7 @@ function fetchPokemon() {
         .catch(error => {
             console.error(error);
             
-            // Ocultar la sección de información del Pokémon ya que no esta en la base de datos
+            // Ocultar la sección de información del Pokémon cuando no esta en la base de datos
             document.querySelector('.poke-info').style.display = 'none';
         });
 }
